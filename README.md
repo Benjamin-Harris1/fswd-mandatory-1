@@ -8,6 +8,7 @@
 - **Search & Filter**: Search, genre filtering and sorting (A-Z, year, rating)
 - **Detail Modals**: Click any item to view detailed information
 - **Responsive design**: Works for both desktop and mobile view (except for the header, I haven't added the burger menu and made it responsive yet)
+- **Tech stack**: React, TypeScript & Tailwindcss
 
 ### To run locally:
 

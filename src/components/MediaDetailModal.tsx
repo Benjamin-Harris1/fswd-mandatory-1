@@ -27,7 +27,7 @@ export default function MediaDetailModal({ isOpen, onClose, media }: MediaDetail
           <div className="overflow-y-auto max-h-[80vh]">
             {/* Poster and Basic Info */}
             <div className="relative">
-              <img src={media.backdropUrl} alt={media.title} className="w-full h-64 object-cover" />
+              <img src={media.backdropUrl} alt={media.title} className="w-full h-80 object-cover object-center" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
                 <h2 className="text-3xl font-bold text-white mb-2">{media.title}</h2>
                 <div className="flex items-center gap-4 text-white">
