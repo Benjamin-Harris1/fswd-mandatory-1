@@ -7,14 +7,26 @@ import TVPage from "./pages/tvshows/TVPage";
 function App() {
   return (
     <BrowserRouter>
-      <MainLayout>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/movies" element={<MoviePage />} />
-          <Route path="/tv-shows" element={<TVPage />} />
-          <Route path="/my-lists" element={<div>My Lists Page</div>} />
-        </Routes>
-      </MainLayout>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <MainLayout>
+              <HomePage />
+            </MainLayout>
+          }
+        />
+        <Route path="/movies" element={<MoviePage />} />
+        <Route path="/tv-shows" element={<TVPage />} />
+        <Route
+          path="/my-lists"
+          element={
+            <MainLayout>
+              <div>My Lists Page</div>
+            </MainLayout>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 }
