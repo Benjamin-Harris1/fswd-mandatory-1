@@ -1,7 +1,7 @@
 import type { MediaItem } from "../types/movie";
 
 // Dummy Movies
-export const dummyMovies: MediaItem[] = [
+export const dummyMoviesAndTVShows: MediaItem[] = [
   {
     id: 1,
     title: "The Matrix",
@@ -78,21 +78,6 @@ export const dummyMovies: MediaItem[] = [
     type: "movie",
   },
   {
-    id: 6,
-    title: "Fight Club",
-    overview: "An insomniac office worker and a soap salesman form an underground fight club.",
-    posterUrl: "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
-    backdropUrl: "https://image.tmdb.org/t/p/original/52AfXWuXCHn3UjD17rBruA9f5qb.jpg",
-    releaseDate: "1999-10-15",
-    rating: 8.8,
-    genre: ["Drama"],
-    duration: 139,
-    director: "David Fincher",
-    cast: ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
-    year: 1999,
-    type: "movie",
-  },
-  {
     id: 101,
     title: "Breaking Bad",
     overview: "A chemistry teacher turned methamphetamine manufacturer partners with a former student.",
@@ -108,6 +93,21 @@ export const dummyMovies: MediaItem[] = [
     cast: ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
     year: 2008,
     type: "tv",
+  },
+  {
+    id: 6,
+    title: "Fight Club",
+    overview: "An insomniac office worker and a soap salesman form an underground fight club.",
+    posterUrl: "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    backdropUrl: "https://image.tmdb.org/t/p/original/52AfXWuXCHn3UjD17rBruA9f5qb.jpg",
+    releaseDate: "1999-10-15",
+    rating: 8.8,
+    genre: ["Drama"],
+    duration: 139,
+    director: "David Fincher",
+    cast: ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+    year: 1999,
+    type: "movie",
   },
   {
     id: 102,
@@ -164,8 +164,8 @@ export const dummyMovies: MediaItem[] = [
     id: 105,
     title: "The Crown",
     overview: "The political rivalries and romance of Queen Elizabeth II's reign and the events that shaped Britain.",
-    posterUrl: "https://image.tmdb.org/t/p/w500/4Hd57mZHvSIH9Iv29XY7R7bFhDr.jpg",
-    backdropUrl: "https://image.tmdb.org/t/p/original/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
+    posterUrl: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1DDE0Z2Y805rqfkEjPbZsMLyPwa.jpg",
+    backdropUrl: "https://media.themoviedb.org/t/p/w533_and_h300_bestv2/8VXhcrl5z2I1zEU9X3pkkNrZlD.jpg",
     releaseDate: "2016-11-04",
     rating: 8.6,
     genre: ["Biography", "Drama", "History"],
@@ -181,8 +181,8 @@ export const dummyMovies: MediaItem[] = [
     id: 106,
     title: "Black Mirror",
     overview: "An anthology series exploring twisted, high-tech worlds where humanity's greatest innovations collide with its darkest instincts.",
-    posterUrl: "https://image.tmdb.org/t/p/w500/5UaYsGZOFhjFDwQh6GuLjjA5WfA.jpg",
-    backdropUrl: "https://image.tmdb.org/t/p/original/5UaYsGZOFhjFDwQh6GuLjjA5WfA.jpg",
+    posterUrl: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+    backdropUrl: "https://image.tmdb.org/t/p/original/38aCLy0BdFbOAIEfuDladoITHN0.jpg",
     releaseDate: "2011-12-04",
     rating: 8.8,
     genre: ["Drama", "Sci-Fi", "Thriller"],
