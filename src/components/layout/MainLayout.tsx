@@ -1,15 +1,20 @@
 import Header from "./Header";
+import Footer from "./Footer";
 
 type LayoutProps = {
   children: React.ReactNode;
 };
-export default function Layout({ children }: LayoutProps) {
+
+export default function MainLayout({ children }: LayoutProps) {
   return (
-    <main className="w-full min-h-screen">
-      <div className="mx-auto container min-w-[350px] px-2 lg:px-0 lg:max-w-[990px] py-10">
-        <Header />
-        <div className="pt-4">{children}</div>
-      </div>
-    </main>
+    <div className="w-full min-h-screen bg-gray-900 flex flex-col">
+      <Header />
+      <main className="flex-grow">
+        <div className="mx-auto container px-2 lg:px-0">
+          <div className="pt-4">{children}</div>
+        </div>
+      </main>
+      <Footer />
+    </div>
   );
 }
